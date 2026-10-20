@@ -1,0 +1,151 @@
+table_name,column_name,issue,cleaning_rule,rows_affected,action_taken,null_count,distinct_count,rule_failure_count
+institutions,ZIP,,,0,,0,12556,0
+institutions,CITY,,,0,,0,7163,0
+institutions,ACTIVE,,,0,,0,2,0
+institutions,BKCLASS,,,0,,0,10,0
+institutions,FED_RSSD,,,0,,0,26577,0
+institutions,WEBADDR,,,0,,32,4121,0
+institutions,ENDEFYMD,,,0,,4242,7388,0
+institutions,CERT,,,0,,0,27835,0
+institutions,STALP,,,0,,0,56,0
+institutions,ESTYMD,,,0,,0,12761,0
+institutions,NAME,,,0,,0,22975,0
+institutions,ID,,,0,,0,27835,0
+institutions,NAMEHCR,,,0,,10760,8138,0
+institutions,ASSET,,,0,,4006,23156,0
+institutions,DEP,,,0,,4006,22811,0
+institutions,ENDEFYMD,Placeholder end dates,Replace 12/31/9999 with NULL,4242,Converted placeholder dates to NULL,,,0
+institutions,NAMEHCR,Blank holding-company names,Replace blank strings with NULL,6754,Normalized missing holding-company values,,,0
+financials,EINTEXP,,,0,,1394,40164,0
+financials,NIMY,,,0,,0,520294,0
+financials,LNATRES,,,0,,1394,45609,0
+financials,REPDTE,,,0,,0,82,0
+financials,ELNATR,,,0,,1394,24414,0
+financials,INTINC,,,0,,1394,76284,0
+financials,SC,,,0,,0,190981,0
+financials,NCLNLS,,,0,,0,45932,0
+financials,LNRE,,,0,,0,285073,0
+financials,NCLNLSR,,,0,,0,460726,0
+financials,LNLSNET,,,0,,0,315246,0
+financials,NPERFV,,,0,,0,470366,0
+financials,ROA,,,0,,0,520831,0
+financials,DEPDOM,,,0,,0,342466,0
+financials,NUMEMP,,,0,,1394,6947,0
+financials,ROE,,,0,,1585,14409,0
+financials,ASSET,,,0,,0,364308,0
+financials,LNLSGR,,,0,,0,316758,0
+financials,EQV,,,0,,0,521119,0
+financials,NONIX,,,0,,1394,62314,0
+financials,NETINC,,,0,,1394,49984,0
+financials,EQ,,,0,,1394,145404,0
+financials,DEP,,,0,,0,342595,0
+financials,DEPUNINS,,,0,,1,186740,0
+financials,RBCT1J,,,0,,1394,143608,0
+financials,P9ASSET,,,0,,0,16050,0
+financials,OFFDOM,,,0,,1,1551,0
+financials,P3ASSET,,,0,,0,32949,0
+financials,CERT,,,0,,0,9488,0
+financials,NONII,,,0,,1394,42284,0
+financials,ID,,,0,,0,523136,0
+financials,YEAR,,,0,,0,21,0
+financials,QUARTER,,,0,,0,4,0
+financials,NETINC_Q,,,0,,1863,35766,0
+financials,INTINC_Q,,,0,,1863,51479,0
+financials,EINTEXP_Q,,,0,,1863,27772,0
+financials,NONII_Q,,,0,,1863,30356,0
+financials,NONIX_Q,,,0,,1863,42379,0
+financials,ELNATR_Q,,,0,,1863,17756,0
+financials,NETINC_Q,Quarterly income cannot always be calculated,Q1 uses YTD; later quarters require consecutive prior quarter,1863,Left unavailable quarterly income as NULL,,,0
+financials,INTINC_Q,Quarterly income cannot always be calculated,Q1 uses YTD; later quarters require consecutive prior quarter,1863,Left unavailable quarterly income as NULL,,,0
+financials,EINTEXP_Q,Quarterly income cannot always be calculated,Q1 uses YTD; later quarters require consecutive prior quarter,1863,Left unavailable quarterly income as NULL,,,0
+financials,NONII_Q,Quarterly income cannot always be calculated,Q1 uses YTD; later quarters require consecutive prior quarter,1863,Left unavailable quarterly income as NULL,,,0
+financials,NONIX_Q,Quarterly income cannot always be calculated,Q1 uses YTD; later quarters require consecutive prior quarter,1863,Left unavailable quarterly income as NULL,,,0
+financials,ELNATR_Q,Quarterly income cannot always be calculated,Q1 uses YTD; later quarters require consecutive prior quarter,1863,Left unavailable quarterly income as NULL,,,0
+failures,RESDATE,,,0,,583,1389,0
+failures,QBFDEP,,,0,,2,3981,0
+failures,BIDCITY,,,0,,0,1118,0
+failures,BIDSTATE,,,0,,241,56,0
+failures,CLOSCD,,,0,,1457,71,0
+failures,PSTALP,,,0,,0,54,0
+failures,BSTATUS,,,0,,1210,2,0
+failures,COMMENTS,,,0,,4042,23,0
+failures,CITYST,,,0,,0,2423,0
+failures,RESTYPE,,,0,,0,2,0
+failures,COSTMOSTRECENTASOF,,,0,,562,1,0
+failures,URL,,,0,,502,608,0
+failures,PTRDATE,,,0,,3584,184,0
+failures,COST,,,0,,637,3395,0
+failures,QBFASSET,,,0,,154,3888,0
+failures,UNINSDEP,,,0,,3950,167,0
+failures,TERMI,,,0,,1461,1,0
+failures,FAILYR,,,0,,0,88,0
+failures,CHCLASS,,,0,,0,7,0
+failures,FUND,,,0,,0,5,0
+failures,BANKNO,,,0,,3370,747,0
+failures,BIDNAME,,,0,,0,2042,0
+failures,FIN,,,0,,0,3167,0
+failures,FAILDATE,,,0,,0,1874,0
+failures,SAVR,,,0,,0,6,0
+failures,RESTYPE1,,,0,,0,11,0
+failures,NAME,,,0,,0,3717,0
+failures,CHCLASS1,,,0,,0,7,0
+failures,FSL_PROG,,,0,,3925,14,0
+failures,CITY,,,0,,0,2125,0
+failures,CERT,,,0,,488,3585,0
+failures,BRDATE,,,0,,3187,284,0
+failures,ID,,,0,,0,4117,0
+failures,RESDATE,Missing-value placeholders,"Replace blanks, NA, N/A and NULL with actual NULL",583,Standardized missing values,,,0
+failures,QBFDEP,Missing-value placeholders,"Replace blanks, NA, N/A and NULL with actual NULL",2,Standardized missing values,,,0
+failures,BIDSTATE,Missing-value placeholders,"Replace blanks, NA, N/A and NULL with actual NULL",241,Standardized missing values,,,0
+failures,CLOSCD,Missing-value placeholders,"Replace blanks, NA, N/A and NULL with actual NULL",1457,Standardized missing values,,,0
+failures,BSTATUS,Missing-value placeholders,"Replace blanks, NA, N/A and NULL with actual NULL",1210,Standardized missing values,,,0
+failures,COMMENTS,Missing-value placeholders,"Replace blanks, NA, N/A and NULL with actual NULL",4042,Standardized missing values,,,0
+failures,COSTMOSTRECENTASOF,Missing-value placeholders,"Replace blanks, NA, N/A and NULL with actual NULL",562,Standardized missing values,,,0
+failures,URL,Missing-value placeholders,"Replace blanks, NA, N/A and NULL with actual NULL",502,Standardized missing values,,,0
+failures,COST,Missing-value placeholders,"Replace blanks, NA, N/A and NULL with actual NULL",637,Standardized missing values,,,0
+failures,QBFASSET,Missing-value placeholders,"Replace blanks, NA, N/A and NULL with actual NULL",154,Standardized missing values,,,0
+failures,UNINSDEP,Missing-value placeholders,"Replace blanks, NA, N/A and NULL with actual NULL",3950,Standardized missing values,,,0
+failures,TERMI,Missing-value placeholders,"Replace blanks, NA, N/A and NULL with actual NULL",1461,Standardized missing values,,,0
+failures,BANKNO,Missing-value placeholders,"Replace blanks, NA, N/A and NULL with actual NULL",3370,Standardized missing values,,,0
+failures,FSL_PROG,Missing-value placeholders,"Replace blanks, NA, N/A and NULL with actual NULL",3925,Standardized missing values,,,0
+failures,CERT,Missing-value placeholders,"Replace blanks, NA, N/A and NULL with actual NULL",488,Standardized missing values,,,0
+failures,BRDATE,Missing-value placeholders,"Replace blanks, NA, N/A and NULL with actual NULL",3187,Standardized missing values,,,0
+complaints,Complaint ID,,,0,,0,1077624,0
+complaints,Date received,,,0,,0,2737,0
+complaints,Product,,,0,,0,7,0
+complaints,Sub-product,,,0,,111,30,0
+complaints,Issue,,,0,,5,64,0
+complaints,Sub-issue,,,0,,162449,165,0
+complaints,Company public response,,,0,,575356,10,0
+complaints,Company,,,0,,0,4118,0
+complaints,State,,,0,,14751,61,0
+complaints,ZIP code,,,0,,373,24662,0
+complaints,Tags,,,0,,881499,3,0
+complaints,Submitted via,,,0,,0,6,0
+complaints,Date sent to company,,,0,,0,2801,0
+complaints,Company response to consumer,,,0,,1,5,0
+complaints,Timely response?,,,0,,0,2,0
+complaints,PRODUCT_HARMONIZED,,,0,,0,5,0
+complaints,PRODUCT_HARMONIZED,Inconsistent product categories,Map equivalent products to common categories,223927,Created harmonized product categories,,,0
+company_crosswalk,Company,,,0,,0,4118,0
+company_crosswalk,CERT,,,0,,4073,44,0
+company_crosswalk,NAMEHCR,,,0,,3994,121,0
+company_crosswalk,match_method,,,0,,0,3,0
+company_crosswalk,match_source,,,0,,3978,2,0
+company_crosswalk,match_status,,,0,,0,4,0
+company_crosswalk,possible_certs,,,0,,0,138,0
+company_crosswalk,unmatched_category,,,0,,140,7,0
+company_crosswalk,complaint_count,,,0,,0,424,0
+company_crosswalk,match_status,Company matching result: unmatched,Match CFPB company names to FDIC bank or holding-company names,3978,Classified 3978 companies as unmatched,,,0
+company_crosswalk,match_status,Company matching result: holding_company,Match CFPB company names to FDIC bank or holding-company names,86,Classified 86 companies as holding_company,,,0
+company_crosswalk,match_status,Company matching result: matched,Match CFPB company names to FDIC bank or holding-company names,45,Classified 45 companies as matched,,,0
+company_crosswalk,match_status,Company matching result: ambiguous,Match CFPB company names to FDIC bank or holding-company names,9,Classified 9 companies as ambiguous,,,0
+macro,quarter_end,,,0,,0,82,0
+macro,DGS10,,,0,,0,76,0
+macro,FEDFUNDS,,,0,,0,50,0
+macro,MORTGAGE30US,,,0,,0,76,0
+macro,UNRATE,,,0,,0,64,0
+macro,DGS10,Missing source observations and mixed reporting frequencies,Convert to numeric and aggregate to quarterly mean,720,Ignored missing observations when calculating quarterly averages,,,0
+macro,FEDFUNDS,Missing source observations and mixed reporting frequencies,Convert to numeric and aggregate to quarterly mean,0,Ignored missing observations when calculating quarterly averages,,,0
+macro,MORTGAGE30US,Missing source observations and mixed reporting frequencies,Convert to numeric and aggregate to quarterly mean,0,Ignored missing observations when calculating quarterly averages,,,0
+macro,UNRATE,Missing source observations and mixed reporting frequencies,Convert to numeric and aggregate to quarterly mean,1,Ignored missing observations when calculating quarterly averages,,,0

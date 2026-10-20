@@ -1,0 +1,19 @@
+
+services:
+  postgres:
+    image: postgres:17
+    container_name: bank-health-postgres
+
+    environment:
+      POSTGRES_USER: database
+      POSTGRES_PASSWORD: database
+      POSTGRES_DB: bank_health
+
+    ports:
+      - "5433:5432"
+
+    volumes:
+      - bank_health_data:/var/lib/postgresql/data
+
+volumes:
+  bank_health_data:

@@ -1,0 +1,16 @@
+# Raw datasets
+raw/
+
+# Generated cleaned data
+cleaned/
+
+# PyCharm
+.idea/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
