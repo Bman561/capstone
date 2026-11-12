@@ -1,8 +1,6 @@
 # Raw datasets
 raw/
 
-# Generated cleaned data
-cleaned/
 
 # PyCharm
 .idea/

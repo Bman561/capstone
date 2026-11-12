@@ -383,7 +383,19 @@ ON CONFLICT (quarter_end) DO UPDATE SET
     mortgage30us = EXCLUDED.mortgage30us,
     unrate = EXCLUDED.unrate;
 
-
+CREATE TABLE IF NOT EXISTS mart.fact_failure AS
+SELECT
+    f.id AS failure_id,
+    f.cert,
+    f.faildate AS date_key,
+    f.failyr AS failure_year,
+    f.name AS bank_name,
+    f.pstalp AS state_code,
+    f.qbfasset AS assets_at_failure,
+    f.qbfdep AS deposits_at_failure,
+    f.cost AS estimated_cost,
+    f.restype AS resolution_type
+FROM warehouse.failure f;
 
 -- COMMIT TRANSACTION
 
